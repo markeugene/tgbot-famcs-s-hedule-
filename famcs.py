@@ -6,7 +6,7 @@ import config
 from telebot import types
 
 bot = telebot.TeleBot(config.token)
-#bot = telebot.TeleBot('1331686531:AAHSW5uY5U9UTmRU982_XvHEhvCJUvmBjYU')
+
 
 
 @bot.message_handler(commands=['start'])
